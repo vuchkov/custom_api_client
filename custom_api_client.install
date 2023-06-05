@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update function for Custom API Client.
+ */
+
+use Drupal\menu_link_content\Entity\MenuLinkContent;
+
+/**
+ * Implements hook_install().
+ */
+function custom_api_client_install(): void {
+  MenuLinkContent::create([
+    'title' => 'Photos',
+    'link' => [
+      'uri' => 'internal:/api-client/photos'
+    ],
+    'menu_name' => 'main',
+    'expanded' => TRUE,
+  ])->save();
+}

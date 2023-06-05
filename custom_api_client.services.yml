@@ -1,0 +1,4 @@
+services:
+  custom_api_client.rest_output:
+    class: Drupal\custom_api_client\RestOutputService
+    arguments: ['@http_client']

@@ -1,6 +1,10 @@
+# API
+- Documentation - https://jsonplaceholder.typicode.com
+- Example GET request - https://jsonplaceholder.typicode.com/albums/1/photos
+
 # Setup
 
-1. Install this module.
+1. Install `custom_api_client` module.
 2. ...
 
 # Task - Import external open API data into D9/10.

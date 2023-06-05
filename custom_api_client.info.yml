@@ -1,5 +1,5 @@
 name: Custom API Client
 type: module
-description: 'Contains exercise for retrieving data from external API.'
+description: 'Contains example for retrieving data from external API.'
 package: Custom
 core_version_requirement: ^9 || ^10

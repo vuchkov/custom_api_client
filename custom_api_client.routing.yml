@@ -1,0 +1,7 @@
+custom_api_client.rest_output_controller_photos:
+  path: '/api-client/photos'
+  defaults:
+    _controller: '\Drupal\custom_api_client\Controller\RestOutputController::showPhotos'
+    _title: 'Dependency injection Example: Photos'
+  requirements:
+    _permission: 'access content'

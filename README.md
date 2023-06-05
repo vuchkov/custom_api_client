@@ -1,11 +1,13 @@
-# API
+# Custom API Client
 - Documentation - https://jsonplaceholder.typicode.com
 - Example GET request - https://jsonplaceholder.typicode.com/albums/1/photos
+- The module can be extended and customized more...
 
 # Setup
 
-1. Install `custom_api_client` module.
-2. ...
+1. Install [Custom API Client](`custom_api_client`) module.
+2. Open custom API URL: `/api-client/photos`.
+3. Check the external API photos.
 
 # Task - Import external open API data into D9/10.
 
@@ -18,5 +20,6 @@ controller, service, and custom routes.
 
 # Resources
 
+- https://www.drupal.org/docs/contributed-modules/http-client-manager/introduction
 - [Services and dependency injection in Drupal 8+](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8)
 - [Altering existing services, providing dynamic services](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/altering-existing-services-providing-dynamic-services)
